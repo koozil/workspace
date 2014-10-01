@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Zadanko {
+public class trzeci {
 
 private static Scanner odczyt;
 
