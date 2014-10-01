@@ -1,7 +1,13 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-
+# JAVA metadata
+*.prefs
+*.tree
+*.zip
+*.snap
+*.markers
+*.index
 # Folder config file
 Desktop.ini
 
