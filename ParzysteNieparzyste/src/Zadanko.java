@@ -8,15 +8,13 @@ public class Zadanko {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Podaj pierwszš zmiennš: ");
+		System.out.println("Podaj pocz¹tek przedzia³u: ");
 		odczyt = new Scanner(System.in);
 		a = odczyt.nextDouble();
-		System.out.println("Podaj druga zmiennš: ");
+		System.out.println("Podaj koniec przedzia³u: ");
 		b = odczyt.nextDouble();
-		System.out.println("Wynik dodawania: " + (a + b));
-		System.out.println("Wynik odejmowania: " + (a - b));
-		System.out.println("Wynik mno¿enia: " + (a * b));
-		System.out.println("Wynik dzielenia: " + (a / b));
+		System.out.println("Liczby parzyste w tym przedziale: " + (a + b));
+		System.out.println("Liczby nieparzyste: " + (a - b));
 	}
 
 }
