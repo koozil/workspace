@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class zad2 {
+public class PodzielnyPrzez {
 private static Scanner odczyt;
 static int a,b,c;
 public static void main(String[] args) {
