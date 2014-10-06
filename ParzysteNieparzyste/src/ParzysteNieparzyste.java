@@ -6,12 +6,10 @@ public class ParzysteNieparzyste {
 		// TODO Auto-generated method stub
 		int poczatek;
 		int koniec;
-		@SuppressWarnings("resource")
 		Scanner odczyt = new Scanner(System.in);
 		System.out.println("Podaj pierwsza liczbe:");
 		poczatek = ((Scanner) odczyt).nextInt();
 		System.out.println("Podaj druga liczbe:");
-		@SuppressWarnings("resource")
 		Scanner odczytaj = new Scanner(System.in);
 		koniec = ((Scanner) odczytaj).nextInt();
 		System.out.println("Liczby parzyste: ");
