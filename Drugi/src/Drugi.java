@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Drugi {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 System.out.println("podaj swoje imiê: ");
