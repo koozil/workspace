@@ -1,7 +1,9 @@
 import java.util.Scanner;
+
 public class PodzielnyPrzez {
 	private static Scanner odczyt;
 	static int a, b, c;
+
 	public static void main(String[] args) {
 		System.out.println("Podaj poczatek przedzialu: ");
 		odczyt = new Scanner(System.in);
