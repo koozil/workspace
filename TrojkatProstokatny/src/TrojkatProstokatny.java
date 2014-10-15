@@ -2,7 +2,7 @@ package podsatwy;
 
 import java.util.Scanner;
 
-public class zad6 {
+public class TrojkatProstokatny {
 	
 	public static boolean poda(int a)
 	{
@@ -48,9 +48,9 @@ public static Scanner cin;
 		d3=cin.nextInt();
 		//System.out.println("Liczby Podzielne przez : "+d3);*/
 		if (czykatp(d1,d2,d3))
-			System.out.println("trujk¹t prostok¹tny");
+			System.out.println("trójk¹t prostok¹tny");
 		else
-			System.out.println("trujk¹t nie prostok¹tny");
+			System.out.println("trójk¹t nie prostok¹tny");
 	}
 
 }
