@@ -1,4 +1,4 @@
-package podsatwy;
+package podstawy;
 
 import java.util.Scanner;
 
