@@ -9,7 +9,7 @@ public class Ztab1 {
 		System.out.println("Podaj elementy tablicy: ");
 		for (int i = 0; i < tab.length; i++) {
 			System.out.println("Element " + i + "; ");
-			tab[i]=odczyt.nextInt();
+			tab[i] = odczyt.nextInt();
 		}
 		System.out.println("Oto podana tablica: ");
 		for (int i = 0; i < tab.length; i++)
