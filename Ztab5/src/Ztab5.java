@@ -1,6 +1,5 @@
 public class Ztab5 {
 	public static int sumap = 0, suma3 = 0;
-
 	public static void main(String[] args) {
 		int[][] tab = new int[5][5];
 		for (int i = 0; i < tab.length; i++) {
