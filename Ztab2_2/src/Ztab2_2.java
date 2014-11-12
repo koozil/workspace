@@ -1,10 +1,10 @@
-public class Ztab2_1 {
+public class Ztab2_2 {
 
 	public static void main(String[] args) {
 		int[] tab = new int[20];
 		for (int i = 0; i < tab.length; i++) {
 
-			tab[i] = 1 + (int) (Math.random() * 100);
+			tab[i] = 1 + (int) (Math.random() * 50);
 		}
 
 		int size = tab.length - 1;
@@ -17,13 +17,7 @@ public class Ztab2_1 {
 				}
 			}
 			size--;
-
-		}
-		System.out.println();
-		for (int i = 0; i < tab.length; i++) {
-			System.out.printf("%4d", tab[i]);
-
-		}
 	}
-
+	}
 }
+
