@@ -10,6 +10,7 @@ int lol;
 		odczyt = new Scanner(System.in);
 		System.out.println("Podaj liczbê:");
  lol = odczyt.nextInt();
+ 
 
 	}
 
