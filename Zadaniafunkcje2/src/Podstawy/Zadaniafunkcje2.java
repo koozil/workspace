@@ -2,23 +2,23 @@ package Podstawy;
 
 import java.util.Scanner;
 
-public class Zadaniafunkcje2 {
+public class Zadaniafunkcje2{
+	public static int i;
 	public static Scanner odczyt;
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-int lol;
-		odczyt = new Scanner(System.in);
-		System.out.println("Podaj liczbê:");
- lol = odczyt.nextInt();
-dzielniki(lol);
-	}
-	
-public static void dzielniki (int lol){
-	for (int i=1;i<=lol;i++);
-	
-	int i;
-	if(lol%i==0)
-		System.out.println(i);
 
-}
+	public static void main(String[] args) {
+		odczyt = new Scanner(System.in);
+		System.out.println("Podaj liczbe:");
+		i = odczyt.nextInt();
+		System.out.println("Dzielniki liczby: " + i);
+		dzielniki(i);
+	}
+
+	private static void dzielniki(int i2) {
+		for (int a = i2; a > 0; a--) {
+			if (i2 % a == 0) {
+				System.out.println(a);
+			}
+		}
+	}
 }

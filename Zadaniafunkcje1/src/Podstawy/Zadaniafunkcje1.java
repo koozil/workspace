@@ -3,7 +3,6 @@ package Podstawy;
 import java.util.Scanner;
 
 public class Zadaniafunkcje1 {
-
 	public static int l1, l2, l3;
 	public static Scanner odczyt;
 
@@ -39,8 +38,9 @@ public class Zadaniafunkcje1 {
 			m = a;
 		else
 			m = b;
-		if (m < c)
-			m = c;
-		return m;
+		if (m > c)
+			return m;
+		else
+			return c;
 	}
 }
